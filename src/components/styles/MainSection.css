@@ -30,8 +30,98 @@
 .mainContent {
     flex: 2;
     border-right: 2px solid #303030;
+    padding: 40px 30px;
+}
+
+.header h1 {
+    font-size: 35px;
+    font-weight: 400;
+    margin: 20px 0;
+}
+
+.message {
+    padding: 10px;
+    border-radius: 8px;
+    background-color: #303030;
+    margin: 20px 0 10px;
+    font-weight: 200;
+}
+
+.message span {
+    font-weight: 600;
+}
+
+.header button {
+    padding: 10px 15px;
+    border-radius: 8px;
+    background-color: #d31616;
+    border: none;
+    font-size: 16px;
+    color: #f2f2f2;
+    margin: 10px 0 20px;
+    cursor: pointer;
+}
+
+.header button:hover {
+    background-color: #d31616a4;
+}
+
+.account h3 {
+    font-size: 22px;
+    font-weight: 400;
+}
+
+.profilePic {
+    margin: 20px 0;
+    display: flex;
+    align-items: center;
+    gap: 1em;
+}
+
+.profilePic img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.profilePic p {
+    font-size: 18px;
+    color: #40d247;
+}
+
+.account form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.account form input {
+    margin-bottom: 15px;
+    padding: 8px 20px;
+    width: 50%;
+    font-size: 14px;
+    background: transparent;
+    color: #f2f2f2;
+    border: 2px solid #303030;
+    border-radius: 8px;
+    outline: none;
+}
+
+.account form button {
+    padding: 10px 25px;
+    background-color: #40d247;
+    color: #f2f2f2;
+    border: none;
+    border-radius: 8px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.account form button:hover {
+    background-color: #40d247ad;
 }
 
 .recomendations {
     flex: 1;
+    padding: 40px 30px;
 }
