@@ -1,0 +1,37 @@
+.mainSection {
+    width: 100%;
+    min-height: 600px;
+    display: flex;
+}
+
+.sideNav {
+    flex: 1;
+    border-right: 2px solid #303030;
+}
+
+.sideNav ul {
+    display: flex;
+    flex-direction: column;
+    padding: 40px 30px;
+    align-items: flex-start;
+    gap: 3em;
+    list-style: none;
+}
+
+.sideNav ul li p {
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.sideNav ul li p:hover {
+    color: #303030;
+}
+
+.mainContent {
+    flex: 2;
+    border-right: 2px solid #303030;
+}
+
+.recomendations {
+    flex: 1;
+}
