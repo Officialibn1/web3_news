@@ -14,17 +14,23 @@
     flex-direction: column;
     padding: 40px 30px;
     align-items: flex-start;
-    gap: 3em;
+    gap: 1.5em;
     list-style: none;
+}
+
+.sideNav ul li {
+    padding: 10px 20px;
+    width: 100%;
+    border-radius: 8px;
+}
+
+.sideNav ul li:hover {
+    background-color: #303030;
 }
 
 .sideNav ul li p {
     font-size: 20px;
     cursor: pointer;
-}
-
-.sideNav ul li p:hover {
-    color: #303030;
 }
 
 .mainContent {

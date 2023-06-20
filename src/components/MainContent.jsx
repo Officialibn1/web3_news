@@ -15,7 +15,7 @@ const MainContent = () => {
             <div className="account">
                 <h3>Profile Picture</h3>
                 <div className="profilePic">
-                    <img src="../../public/img/ibn.jpg" alt="profile" />
+                    <img src="/img/ibn.jpg" alt="profile" />
                     <p>Change</p>
                 </div>
 

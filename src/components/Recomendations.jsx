@@ -3,17 +3,17 @@ const Recomendations = () => {
         <div className="recomendations">
             <div className="card">
                 <p>Recomended for Ibn</p>
-                <img src="../../public/img/laptop.jpg" alt="" />
+                <img src="/img/laptop.jpg" alt="" />
             </div>
 
             <div className="card">
                 <p>Porpular in ibn&apos;s App</p>
-                <img src="../../public/img/laptop.jpg" alt="" />
+                <img src="/img/laptop.jpg" alt="" />
             </div>
             
             <div className="card">
                 <p>Editors Choice</p>
-                <img src="../../public/img/laptop.jpg" alt="" />
+                <img src="/img/laptop.jpg" alt="" />
             </div>
 
             <div className="more">

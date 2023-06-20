@@ -8,7 +8,7 @@ const SideNav = () => {
                 <li><p>Products</p></li>
                 <li><p>Groups</p></li>
                 <li><p>Pages</p></li>
-                <li><p>Logout</p></li>
+                <li><p>Logout ( Ibn )</p></li>
             </ul>
         </div>
     );
