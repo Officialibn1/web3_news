@@ -1,0 +1,157 @@
+
+.webNews {
+    display: flex;
+    gap: 2em;
+}
+
+.news {
+    flex: 4;
+    display: flex;
+    flex-direction: column;
+}
+
+.newsImg {
+    width: 100%;
+    height: fit-content;
+}
+
+.newsImg img {
+    width: 100%;
+}
+
+.mobileImg {
+    display: none;
+}
+
+.newsText {
+    display: flex;
+    margin-top: 25px;
+    gap: 1em;
+    min-height: 220px;
+    padding-bottom: 10px;
+}
+
+.newsTitle{
+    flex: 1;
+}
+
+.newsTitle h1{
+    font-size: clamp(38px, 4vw ,50px);
+    margin: 0;
+    padding: 0;
+    font-weight: 800;
+}
+
+.newsPreview{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.newsPreview p {
+    font-size: 15px;
+    line-height: 1.6;
+    margin: 0 0 auto;
+    
+}
+
+.newsPreview button {
+    margin-top: 20px;
+    width: fit-content;
+    padding: 12px 22px;
+    background-color:  hsl(5, 85%, 63%);
+    border: none;
+    cursor: pointer;
+    color: rgb(254,253,249);
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 15px;
+    font-weight: 500;
+    justify-self: flex-end;
+}
+.newsPreview button:hover {
+    background-color: rgb(0,0,26);
+}
+
+.new {
+    flex: 2;
+    background-color: rgb(0,0,26);
+    padding: 20px; 
+    display: flex;
+    flex-direction: column;   
+}
+
+.newTitle {
+    margin: 15px 0;
+}
+
+.newTitle h1 {
+    color: hsl(35, 77%, 62%);
+}
+
+.newTilesContainer {
+    display: flex;
+    flex-direction: column;
+    height: calc(100% - 50px);
+}
+
+.newTiles {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: .8em;
+    border-bottom: 1px solid #ffffff73;
+    flex: 1;
+    color: rgb(254,253,249);
+    padding: 20px 0;
+}
+
+.newTiles:nth-of-type(3) {
+    border-bottom: none;
+}
+
+.newTiles h2 {
+    font-weight: 600;
+    font-size: 20px;
+    opacity: .95;
+    cursor: pointer;
+}
+
+.newTiles h2:hover {
+    color: hsl(35, 77%, 62%);
+}
+
+.newTiles p {
+    line-height: 1.7;
+    font-size: 14px;
+    font-weight: 300;
+    opacity: .8;
+}
+
+@media(max-width: 900px) {
+    .webNews {
+        flex-direction: column;
+    }
+
+    .newTilesContainer {
+        min-height: 300px;
+    }
+}
+
+@media(max-width: 750px) {
+    .navLinks {
+        display: none;
+    }
+    .newsText {
+        flex-direction: column;
+    }
+
+    .desktopImg {
+        display: none;
+    }
+
+    .mobileImg {
+        display: block;
+    }
+}
