@@ -46,6 +46,7 @@ main {
   max-width: 1440px;
   margin: 0 auto;
   background-color: rgb(254,253,249);
+  overflow: hidden;
 }
 
 main p {
@@ -54,4 +55,10 @@ main p {
 
 .container {
   padding: 0 7%;
+}
+
+@media(max-width: 750px) {
+  .container {
+    padding: 0 3%;
+  }
 }

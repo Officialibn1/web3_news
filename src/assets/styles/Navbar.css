@@ -5,7 +5,15 @@ nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    
+    position: relative;
+}
+
+.mobileNavLinks {
+    display: none;
+}
+
+.toggleNav {
+    display: none;
 }
 
 .navLinks ul {
@@ -22,4 +30,62 @@ nav {
 }
 .navLinks ul li p:hover {
     color:  hsl(5, 85%, 63%);
+}
+
+@media(max-width: 750px) {
+    .navLinks {
+        display: none;
+    }
+
+    .toggleNav {
+        display: block;
+        height: 30px;
+        width: 40px;
+    }
+
+    .toggleNav img {
+        height: 100%;
+        width: 100%;
+        cursor: pointer;
+    }
+
+    .mobileNavLinks {
+        display: block;
+        position: absolute;
+        top: 0;
+        right: -400px;
+        /* right: -28px; */
+        width: 280px;
+        height: 100vh;
+        overflow: hidden;
+        background-color:  hsl(36, 100%, 99%);
+        z-index: 5;
+        padding: 30px;
+        transition: right 300ms ease;
+    }
+
+    .show {
+        right: -28px;
+    }
+    
+    .close {
+        padding: 0 30px;
+        display: flex;
+        justify-content: flex-end;
+        cursor: pointer;
+    }
+
+    .mobileNavLinks ul {
+        list-style: none;
+        display: flex;
+        flex-direction: column;
+        gap: 2em;
+        margin-top: 80px;
+    }
+
+    .mobileNavLinks p {
+        font-weight: 500;
+        color: #000;
+        font-size: 20px;
+    }
 }

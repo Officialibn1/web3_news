@@ -1,3 +1,4 @@
+import Footer from "./components/Footer";
 import Navbar from "./components/Navbar";
 import TrendingNews from "./components/TrendingNews";
 import WebNews from "./components/WebNews";
@@ -8,6 +9,7 @@ const App = () => {
       <Navbar />
       <WebNews />
       <TrendingNews />
+      <Footer />
     </main>
   );
 }

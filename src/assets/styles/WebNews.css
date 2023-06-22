@@ -138,9 +138,6 @@
 }
 
 @media(max-width: 750px) {
-    .navLinks {
-        display: none;
-    }
     .newsText {
         flex-direction: column;
     }
