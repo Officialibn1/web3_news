@@ -1,4 +1,5 @@
 import Navbar from "./components/Navbar";
+import TrendingNews from "./components/TrendingNews";
 import WebNews from "./components/WebNews";
 
 const App = () => {
@@ -6,6 +7,7 @@ const App = () => {
     <main className="container">
       <Navbar />
       <WebNews />
+      <TrendingNews />
     </main>
   );
 }
