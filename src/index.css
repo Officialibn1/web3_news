@@ -1,24 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap');
-
-@font-face {
-  font-family: inter-var;
-  src: url(/public/fonts/Inter-VariableFont_slnt\,wght.ttf);
-}
-
-@font-face {
-  font-family: inter-regular;
-  src: url(/public/fonts/Inter-Regular.ttf);
-}
-
-@font-face {
-  font-family: inter-bold;
-  src: url(/public/fonts/Inter-Bold.ttf);
-}
-
-@font-face {
-  font-family: inter-xbold;
-  src: url(/public/fonts/Inter-ExtraBold.ttf);
-}
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800&display=swap');
 
 :root {
   font-family: inter-var;
@@ -38,7 +18,7 @@
   box-sizing: border-box;
   padding: 0;
   margin: 0;
-  font-family: inter-var;
+  font-family: 'Inter', sans-serif;
   scroll-behavior: smooth;
 }
 

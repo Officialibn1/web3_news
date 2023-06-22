@@ -6,8 +6,8 @@ const WebNews = () => {
         <div className="container webNews">
             <div className="news">
                 <div className="newsImg">
-                    <img className='desktopImg' src="/public/images/image-web-3-desktop.jpg" alt="web3-desktop" />
-                    <img className='mobileImg' src="/public/images/image-web-3-mobile.jpg" alt="web3-mobile" />
+                    <img className='desktopImg' src="/images/image-web-3-desktop.jpg" alt="web3-desktop" />
+                    <img className='mobileImg' src="/images/image-web-3-mobile.jpg" alt="web3-mobile" />
                 </div>
                 <div className="newsText">
                     <div className="newsTitle">
