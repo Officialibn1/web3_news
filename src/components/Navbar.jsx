@@ -11,7 +11,7 @@ const Navbar = () => {
     return (
         <nav className='container'>
             <div className="logo">
-                <img src="/public/images/logo.svg" alt="logo" />
+                <img src="/images/logo.svg" alt="logo" />
             </div>
 
             <div className="navLinks">
