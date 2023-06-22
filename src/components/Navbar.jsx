@@ -25,12 +25,12 @@ const Navbar = () => {
             </div>
 
             <div className="toggleNav">
-                <img src="/public/images/icon-menu.svg" alt="menu" onClick={toggler} />
+                <img src="/images/icon-menu.svg" alt="menu" onClick={toggler} />
             </div>
 
             <div className={toggle ? 'mobileNavLinks' : 'mobileNavLinks show'}>
                 <div className="close">
-                    <img src="/public/images/icon-menu-close.svg" alt="close" id="close" onClick={toggler}/>
+                    <img src="/images/icon-menu-close.svg" alt="close" id="close" onClick={toggler}/>
                 </div>
                     <ul>
                         <li><p>Home</p></li>
